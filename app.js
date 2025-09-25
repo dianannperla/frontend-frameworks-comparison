@@ -7,5 +7,11 @@ document.getElementById('framework-select').addEventListener('change', function(
 function updateResults(framework) {
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = `<p>Comparison results for <strong>${framework}</strong> will be displayed here.</p>`;
-    // Logic for fetching and displaying data will go here
+    // Logic for fetching data from API will go here
+    fetchData(framework);
+}
+
+function fetchData(framework) {
+    // Placeholder for actual data fetching logic
+    console.log(`Fetching data for ${framework}`);
 }

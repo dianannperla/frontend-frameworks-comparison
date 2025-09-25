@@ -6,6 +6,6 @@ document.getElementById('framework-select').addEventListener('change', function(
 
 function updateResults(framework) {
     const resultsDiv = document.getElementById('results');
-    resultsDiv.innerHTML = `<p>Kết quả so sánh cho ${framework} sẽ được hiển thị ở đây.</p>`;
+    resultsDiv.innerHTML = `<p>Comparison results for <strong>${framework}</strong> will be displayed here.</p>`;
     // Logic for fetching and displaying data will go here
 }

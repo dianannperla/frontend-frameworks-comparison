@@ -22,4 +22,5 @@ select {
 select:hover {
     border-color: #007BFF;
     cursor: pointer;
+    background-color: #e2e6ea;
 }
